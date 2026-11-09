@@ -26,7 +26,20 @@ int main(){
 	printf("Hieu: %d \n", x-y);
 	printf("Tich: %d \n", x*y);
 	printf("Thuong: %.2f \n", (float) x/y);
-	printf("Phan du: %d", x%y); // %: chia lay phan du
+	printf("Phan du: %d \n", x%y); // %: chia lay phan du
+	
+//	Toan tu tang giam (thuoc toan tu so hoc)
+	
+/*
+	++ tang gia tri cua bien len 1 don vi
+	Neu ++ dung truoc bien -> thuc thi ngay tai thoi diem
+	Neu ++ dung sau bien -> thuc thi sau cau lenh
+*/
+	int e = 1;
+//	printf("e: %d \n", ++e); 
+	printf("e: %d \n", e++);
+	printf("e: %d \n", e);
+
 	
 
 	return 0;
