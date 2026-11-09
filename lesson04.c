@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 int main(){
 	// 1. Toan tu Gan
 	int a = 10; // Gan a = 10;

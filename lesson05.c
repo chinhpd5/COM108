@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 int main(){
 //	3. Toan tu so sanh: >, <, >=, <=, ==, !=
 /*	
