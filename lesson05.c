@@ -70,6 +70,24 @@ int main(){
 	}else{
 		printf("Day la so le \n");
 	}
+	
+//	Ket hop voi toan tu logic
+//	Bai toan dang nhap: dung khi tai khoan va mat khau bang 1
+	int username = 1;
+	int password = 1;
+	if(username == 1 && password == 1){
+		printf("Dang nhap thanh cong \n");
+	}else{
+		printf("Sai tai khoan hoac mat khau \n");
+	}
+	
+//	kiem tra 1 so nam ngoai khoang 10 - 20
+	int num = 30;
+	if(num < 10 || num > 20){
+		printf("so %d nam ngoai khoang 10 - 20 \n", num);
+	}else{
+		printf("so %d nam trong khoang 10 - 20 \n", num);
+	}
 
 	return 0;
 }
