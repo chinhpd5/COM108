@@ -88,6 +88,20 @@ int main(){
 	}else{
 		printf("so %d nam trong khoang 10 - 20 \n", num);
 	}
+	
+//	if...else if...esle
+//	Xep loai hoc luc theo diem
+	float diem = 3;
+	
+	if(diem > 8.0){
+		printf("Hoc luc Gioi \n");
+	}else if(diem > 6.5){
+		printf("Hoc luc Kha \n");
+	}else if(diem > 5.0){
+		printf("Hoc luc Trung binh \n");
+	}else{
+		printf("Hoc luc Yeu \n");
+	}
 
 	return 0;
 }
